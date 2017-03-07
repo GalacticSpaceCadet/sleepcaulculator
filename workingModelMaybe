@@ -4,7 +4,13 @@ function getSleepHours(day){
 }
 
 function getActualSleepHours(){
-  return getSleepHours('Monday') + 		     getSleepHours('Tuesday') + getSleepHours('Wednesday') + getSleepHours('Thursday') + getSleepHours('Friday') + getSleepHours('Saturday') + getSleepHours('Sunday');
+  return getSleepHours('Monday') + 
+  getSleepHours('Tuesday') +
+  getSleepHours('Wednesday') +
+  getSleepHours('Thursday') +
+  getSleepHours('Friday') +
+  getSleepHours('Saturday') +
+  getSleepHours('Sunday');
 }
 
 function getIdealSleepHours(){
